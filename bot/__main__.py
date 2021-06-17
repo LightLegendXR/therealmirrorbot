@@ -37,7 +37,7 @@ def stats(update, context):
     cpuUsage = psutil.cpu_percent(interval=0.5)
     memory = psutil.virtual_memory().percent
     disk = psutil.disk_usage('/').percent
-    stats = f'<b>Bot's Alive Time:</b> {currentTime}\n' \
+    stats = f'<b>Bots Alive Time:</b> {currentTime}\n' \
             f'<b>Start Time:</b> {current}\n' \
             f'<b>Total Dick Space:</b> {total}\n' \
             f'<b>Filled with trash space:</b> {used}  ' \
